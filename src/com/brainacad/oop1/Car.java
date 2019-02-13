@@ -2,6 +2,9 @@ package com.brainacad.oop1;
 
 public class Car{
 
+    private static int numOfCars;
+    private static final int NUMBER_OF_WHEELS = 4;
+
     private String model;
 
     private int maxSpeed;
@@ -13,8 +16,19 @@ public class Car{
         this.year = year;
     }
 
-
     public Car(){
+        numOfCars++;
+    }
+
+    public static int getNumberOfWheels(){
+        return NUMBER_OF_WHEELS;
+    }
+    public static int getNumOfCars(){
+        return numOfCars;
+    }
+
+    public static void setNumOfCars(int numOfCars){
+        Car.numOfCars = numOfCars;
     }
 
     public int getMaxSpeed() {

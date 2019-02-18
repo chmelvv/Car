@@ -5,6 +5,11 @@ public class Animal {
     private String color;
     private String message;
 
+//    @Override
+//    public String toString() {
+//        return "{ " + this.getClass().getName() + "height=" + height + ", color='" + color + '}';
+//    }
+
     public void setMessage(String message) {
         this.message = message;
     }
@@ -21,6 +26,8 @@ public class Animal {
     public void setHeight(int height) {
         this.height = height;
     }
+
+
 
     public String getColor() {
         return color;

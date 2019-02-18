@@ -6,4 +6,9 @@ public class Cat extends Animal{
         super(height, color);
         setMessage("Meow");
     }
+
+    @Override
+    public String toString(){
+        return super.toString() + "Meow, Meow";
+    }
 }

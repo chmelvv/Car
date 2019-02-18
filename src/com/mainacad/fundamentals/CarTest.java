@@ -2,6 +2,9 @@ package com.mainacad.fundamentals;
 
 import com.mainacad.fundamentals.Car;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import static java.lang.Math.*;
 import static java.lang.System.*;
 
@@ -46,15 +49,16 @@ public class CarTest {
 //        Car car2 = new Car();
 //        Car car3 = new Car();
 
-        Car.setNumOfCars(100);
-        System.out.println( Car.getNumOfCars() );
-        System.out.println( Car.getNumberOfWheels() );
+//        Car.setNumOfCars(100);
+//        System.out.println( Car.getNumOfCars() );
+//        System.out.println( Car.getNumberOfWheels() );
+//
+//    double r = sin(10) + cos(10);
+//    out.println(r);
 
-    double r = sin(10) + cos(10);
-    out.println(r);
+
+
 
      }
-
-
 
 }

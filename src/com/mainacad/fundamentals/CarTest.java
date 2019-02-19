@@ -56,6 +56,7 @@ public class CarTest {
 //    double r = sin(10) + cos(10);
 //    out.println(r);
 
+        System.out.println(Math.random());
 
 
 

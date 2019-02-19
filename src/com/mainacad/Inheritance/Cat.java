@@ -7,8 +7,13 @@ public class Cat extends Animal{
         setMessage("Meow");
     }
 
-    @Override
-    public String toString(){
-        return super.toString() + "Meow, Meow";
+    public int getHeight() {
+        System.out.println("Set Height in Cat");
+        return super.getHeight() + 1;
     }
+
+//    @Override
+//    public String toString(){
+//        return super.toString() + "Meow, Meow";
+//    }
 }

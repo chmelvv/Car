@@ -9,6 +9,11 @@ public class AnimalTest {
         System.out.println(shepherd.say());
         System.out.println(siamese.say());
 
+        shepherd.getHeight();
+        siamese.getHeight();
+
+        shepherd.makeAJump();
+
 //        System.out.println(shepherd.toString());
 //        System.out.println(siamese.toString());
     }

@@ -1,6 +1,7 @@
 package com.mainacad.Inheritance;
 
-public class Animal {
+public class Animal extends Object{
+
     private int height;
     private String color;
     private String message;
@@ -20,14 +21,13 @@ public class Animal {
     }
 
     public int getHeight() {
+        System.out.println("Set Height in Animal");
         return height;
     }
 
     public void setHeight(int height) {
         this.height = height;
     }
-
-
 
     public String getColor() {
         return color;
